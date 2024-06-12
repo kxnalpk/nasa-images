@@ -1,5 +1,5 @@
 # What is this?
-A simple project that sends daily astronomy images directly to your email. The tools used are given below:
+A simple app that sends daily astronomy images directly to your email. The tools used are given below:
 
 - [Resend](<https://resend.com>) - for sending emails
 - [Api](<https://apis.nasa.gov>) - api to get the images from
