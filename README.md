@@ -7,7 +7,7 @@ A simple project that sends daily astronomy images directly to your email. The t
 
 # How to setup the project?
 1. Clone the repo by using `git clone https://github.com/kxnalpk/nasa-images.git`.
-2. Rename `.env.example` to `.env` and add your own api keys and email.
+2. Rename `.env.example` to `.env` and add your own api keys and emails.
 3. Use `npm install` to install all the packages.
 4. Use `npm run dev` to run this locally.
 
