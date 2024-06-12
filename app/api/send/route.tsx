@@ -43,7 +43,7 @@ export async function POST() {
 
     const { data, error } = await resend.emails.send({
       from: 'Nasa <noreply@kunalsh.com>',
-      to: ['kunalsh5739@gmail.com'],
+      to: [`${process.env.YOUR_EMAIL}`],
       subject: "Your daily dose of space images",
       react: <Email firstName="astronomy" nasaData={nasaData} />,
     });
