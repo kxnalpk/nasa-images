@@ -10,21 +10,14 @@ interface Template {
 }
 
 const Email: React.FC<Readonly<Template>> = ({
-  firstName,
   nasaData,
 }) => (
   <Html>
-<Container color='#000000'>
-<Heading
-  >
-    {nasaData.title}
-  </Heading>
+<Container>
 
-  <Text
-  >
-    {nasaData.explanation}
-  </Text>
-
+  <Heading>{nasaData.title}</Heading>
+  <Text>{nasaData.explanation}</Text>
+  
   <Hr/>
 
 <Img src={nasaData.url} alt='image' width={600}></Img>
